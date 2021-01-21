@@ -12,6 +12,7 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      var code = this.props.data.code;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -92,6 +93,19 @@ class ProjectDetailsModal extends Component {
                   ></i>
                 </a>
               ) : null}
+              {url ? (
+                <a
+                  href={code}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-href"
+                >
+                  <i
+                    className="devicon-github-original colored"
+                    style={{ marginLeft: "10px" }}
+                  ></i>
+                </a>
+              ) :null}
             </h3>
             <p className="modal-description">{description}</p>
             <div className="col-md-12 text-center">

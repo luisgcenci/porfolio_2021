@@ -59,7 +59,7 @@ class App extends Component {
         this.setState({ resumeData: data });
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        // alert(err);
       },
     });
   }
@@ -74,7 +74,7 @@ class App extends Component {
         document.title = `${this.state.sharedData.basic_info.name}`;
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        // alert(err);
       },
     });
   }
@@ -111,7 +111,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-netherlands"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
@@ -131,6 +131,7 @@ class App extends Component {
         />
         <Experience
           resumeExperience={this.state.resumeData.experience}
+          resumeEducation={this.state.resumeData.education}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />

@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
+import pythonIcon from "@iconify/icons-logos/python";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import vueIcon from "@iconify/icons-logos/java";
+import Pdf from '../pdfs/resume.pdf'
 
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var profilepic = "";
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -26,12 +27,12 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
+                    src={require("../images/myProfile.png")}
                     height="250px"
-                    src={profilepic}
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={angularIcon}
+                    icon={pythonIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
@@ -77,7 +78,16 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <div className="section">
+                      <div className="row">
+                        <div className="col-sm-8">
+                          <span className="wave">{hello}</span>
+                        </div>
+                        <div className="col-sm-4" style={{backgroundColor:'#e9d5a1', borderRadius:15, textAlign:'center', border:'1px solid black'}}>
+                          <a href={Pdf} target= "_blank" style={{color:'#9f4dd1'}}>checkout my resume</a>
+                        </div>
+                      </div>
+                    </div>
                     <br />
                     <br />
                     {about}

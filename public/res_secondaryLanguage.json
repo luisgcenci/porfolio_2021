@@ -1,115 +1,317 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Hoi :)",
+      "description": "👋Ik ben Luis Cenci Ribeiro, ik ben een senior student Computerwetenschappen aan de Universiteit van New Orleans. Ik ben gepassioneerd om uitgedaagd te worden en problemen op te lossen door middel van codering, en ik ben klaar om een goede impact te hebben in de wereld door mijn vaardigheden. Ik kan coderen in java, python en javascript. Ik heb ervaring met frameworks voor webontwikkeling, zoals React (States, Hooks, Router) en Flask. In de front-end kan ik ook helpen met mijn kennis van HTML5, CSS en jQuery. En aan de achterkant zou ik waarde kunnen toevoegen aan uw projecten met mijn vaardigheden in NodeJS, Express, Flask, MongoDB, MySQL, en SQLAlchemy. Ik heb ook ervaring met Cloud Computing met behulp van AWS-services, services zoals EC2, s3, Memcached, Lambda, SNS, SQS en API Gateway. Ik ben momenteel ook React Native aan het leren en ik streef ernaar om binnenkort deel uit te maken van de 'Mobile App Development World'. Ik spreek drie talen: portugees, spaans en engels en ik ben ZO klaar om wat ducth te leren. Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska. Oh, ik heb een paar apps / websites geïmplementeerd met Ngnix, Cerbot en Ubuntu met behulp van Linode / Digital Ocean-hostingservices. O ik heb ook ervaring met prototyping met Figma .. ik vind het echt heerlijk om overal te zijn. 💜",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Over mij",
+        "projects": "Projecten",
+        "skills": "Vaardigheden",
+        "experience": "Ervaring",
+        "education" : "Opleiding"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Pokedex",
+        "startDate": "2021",
+        "description": "Dit is het begin van mijn reis met React. Een klein Poke Game-kaartspel genaamd Pokedex.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/pokedex/1.png",
+          "images/portfolio/pokedex/2.png"
         ],
-        "url": "",
+        "url": "https://happy-knuth-689a4e.netlify.app/",
+        "code": "https://github.com/luisgcenci/pokedexbattle",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
+            "class": "devicon-react-original colored",
             "name": "React"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Tweetmarket | Twitter's wereldwijde hackathon #Codechella",
+        "startDate": "2020",
+        "description": "Niet jouw normale sociale mediamarkt. Absoluut een van de beste ervaringen die ik ooit heb gehad in de programmeerwereld. Ik had het genoegen om een aantal geweldige mensen uit verschillende delen van de wereld te ontmoeten en we hebben samen in 3 dagen een nieuwe web-app met de API van Twitter afgeleverd.",
+        "images": [
+          "images/portfolio/twittermarket/logo.jpg",
+          "images/portfolio/twittermarket/whatsabout.png"
+        ],
+        "url": "https://devpost.com/software/tweetmarket-uzqfpj",
+        "code": "https://github.com/luisgcenci/twittermarket",
+        "technologies": [
+          {
+            "class": "devicon-python-plain colored",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-flask-original",
+            "name": "Flask"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySQL"
+          },
+          {
+            "class": "devicon-react-original colored",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          }
+
+        ]
+      },
+      {
+        "title": "Flask Blog",
+        "startDate": "2020",
+        "description": "Dit was een coderingsproject van Corey Schafer, waar we een webapp hebben gebouwd met Python en Flask waar gebruikers berichten kunnen toevoegen, bijwerken en verwijderen. Het was later erg handig voor mij toen ik de opdracht kreeg om een Quick Map-webapp te maken voor het datacenter van Twitter met HTML5, Canvas, Python en Flask.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
         ],
         "url": "https://github.com",
+        "code": "https://github.com/luisgcenci/flaskblog-deployed",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain colored",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-flask-original",
+            "name": "Flask"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-sqlalchemy-plain",
+            "name": "SQLAlchemy"
+          },
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          }
+        ]
+      },
+      {
+        "title": "Winkelmand",
+        "startDate": "2020",
+        "description": "Een front-end winkelwagenpagina waar gebruikers producten aan een winkelwagentje kunnen toevoegen en een formulier met hun informatie kunnen invullen. Probeer enkele items toe te voegen om af te rekenen en werk ze bij in het afrekengedeelte daar, het werkt :). Zorg ervoor dat u een maat en een kleur kiest voor uw product. Opmerking: als u hetzelfde item met dezelfde kleur en maat probeert toe te voegen, wordt een bericht weergegeven.",
+        "images": [
+          "images/portfolio/shoppingcart/1.png",
+          "images/portfolio/shoppingcart/2.png"
+        ],
+        "url": "https://xzero-launchingpage.000webhostapp.com/",
+        "code": "https://github.com/luisgcenci/launching-page-front-end-only",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-jquery-plain colored",
+            "name": "jQuery"
+          },
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "JRAC",
+        "startDate": "2020",
+        "description": "JRAC is een spel dat ik ben gaan ontwikkelen met Java. Het is geïnspireerd door Minecraft en het draait allemaal om het verkennen van natuurlijke hulpbronnen en het bouwen van dingen. Het meer 'complexe' idee erachter, dat ik nog niet de tijd heb om te implementeren, is om de held verantwoordelijk te maken voor het zorgen voor zijn wereld terwijl hij deze verkent (bijv. Bomen herplanten, plantaardig voedsel eten).",
+        "images": [
+          "images/portfolio/jrac/1.png",
+          "images/portfolio/jrac/2.png"
+        ],
+        "url": "https://github.com/luisgcenci",
+        "code": "https://github.com/luisgcenci/JRAC",
+        "technologies": [
+          {
+            "class": "devicon-java-plain colored",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-inkscape-plain colored",
+            "name": "Inkscape"
+          },
+          {
+            "class": "devicon-intellij-plain colored",
+            "name": "IntelliJ"
+          }
+        ]
+      },
+      {
+        "title": "Opwarming van de aarde is echt",
+        "startDate": "2019",
+        "description": "De opwarming van de aarde is reëel en daar zijn wij verantwoordelijk voor. Mijn allereerste websiteproject, gebouwd vanuit stracth, waar ik spreek over de oorzaken van de opwarming van de aarde en we kunnen het eraan doen.",
+        "images": [
+          "images/portfolio/globalwarming/1.png",
+          "images/portfolio/globalwarming/2.png"
+        ],
+        "url": "https://global-warming-front-end.000webhostapp.com/",
+        "code": "https://github.com/luisgcenci/global-warming-front-end",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Twitter, Atlanta",
+        "title": "Site Ops-technicus",
+        "years": "05.2020 - 12.2020",
         "mainTech": [
-          "Angular 8/9/10"
+          "Python 3.7"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "Python",
+          "Flask",
+          "Jira",
+          "HTML5",
+          "CSS",
+          "Pycodestyle",
+          "Pylint",
+          "Tech Refresh",
+          "Repairs"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Strong Shield Siding, New Orleans",
+        "title": "Projectleider",
+        "years": "01.2016 - 01.2020",
         "mainTech": [
-          "Angular 7/8"
+          "Leiderschap"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Spaans",
+          "Tijdsbeheer",
+          "Arbeidsethos",
+          "Het roosteren",
+          "Communicatie",
+          "Kritisch denken",
+          "Planning",
+          "Klantenservice"
+        ]
+      },
+      {
+        "company": "AIESEC, Brazil",
+        "title": "Exchange Liaison",
+        "years": "01.2015 - 07.2015",
+        "mainTech": [
+          "Vrijwilliger"
+        ],
+        "technologies": [
+          "Planning",
+          "Coördineren",
+          "Positiviteit",
+          "Diversiteit",
+          "Gemeenschap"
+        ]
+      },
+      {
+        "company": "S.F Santana Lopes, Brazil",
+        "title": "Office Manager",
+        "years": "04.2014 - 10.2015",
+        "mainTech": [
+          "Beheer"
+        ],
+        "technologies": [
+          "Logistiek",
+          "Communicatie",
+          "Klantenservice",
+          "Verkoopondersteuning",
+          "Inkoop",
+          "Onderhandelen",
+          "Personeel's management",
+          "Voorraadbeheer"
+
+        ]
+      }
+    ],
+    "education": [
+      {
+        "company": "University of New Orleans",
+        "title": "Computerwetenschappen B.S",
+        "years": "01.2019 - present",
+        "mainTech": [
+          "Senior"
+        ],
+        "technologies": [
+          "Data structuren",
+          "OOP",
+          "Bijeenkomst",
+          "Bootstrap",
+          "Cloud computing",
+          "Algoritmen",
+          "Besturingssystemen",
+          "Theory of Computation",
+          "Datamodellen en DBS-syst",
+          "Discrete structuren"
+        ]
+      },
+      {
+        "company": "Delgado Community College, New Orleans",
+        "title": "Algemene studies",
+        "years": "06.2016 - 01.2019",
+        "mainTech": [
+          "Ermee beginnen"
+        ],
+        "technologies": [
+          "Engels",
+          "Calculus",
+          "Economie",
+          "Statistieken"
+        ]
+      },
+      {
+        "company": "Colégio Evangélico de Maringá, Brazil",
+        "title": "Middelbare school",
+        "years": "01.2014 - 01.2017",
+        "mainTech": [
+          "Gewoon een kind"
+        ],
+        "technologies": [
+          "Pret"
         ]
       }
     ]

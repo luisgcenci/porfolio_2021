@@ -1,117 +1,317 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hi :)",
+      "description": "👋I'm Luis Cenci Ribeiro, I'm a senior Computer Science student at the University of New Orleans. I'm passionate about being challenged and solving problems through coding, and I'm ready to make a good impact in the world through my skills. I can code in java, python and javascript. I have experience with web development frameworks such as React (States, Hooks, Router) and Flask. In the front-end, I can also help with my knowledge in HTML5, CSS and jQuery. And in the back-end I could add value to your projects with my skills in NodeJS, Express, Flask, MongoDB, MySQL and SQLAlchemy. I have experineces with Cloud Computing using AWS services as well, services such as EC2, s3, Memcached, Lambda, SNS, SQS and API Gateway. I'm also currently learning React Native and I'm aiming to be part of the Mobile App Development 'World' pretty soon. I speak three languages: portugese, spanish and english and I'm SO ready to start learning some ducth. Oh, I have deployed a few apps/websites with Ngnix, Certbot and Ubuntu using Linode/Digital Ocean hosting services too. Oh I also got experience prototyping with Figma.. I honestly just love to be everywhere 💜.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Work Experience",
+        "education" : "Education"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Pokedex",
+        "startDate": "2021",
+        "description": "This is the beggining of my journey with React. A little Pokegame card game called Pokedex.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/pokedex/1.png",
+          "images/portfolio/pokedex/2.png"
         ],
-        "url": "",
+        "url": "https://happy-knuth-689a4e.netlify.app/",
+        "code": "https://github.com/luisgcenci/pokedexbattle",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
+            "class": "devicon-react-original colored",
             "name": "React"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Tweetmarket | Twitter's Global Hackathon #Codechella",
+        "startDate": "2020",
+        "description": "Not your normal social media market. Definetely one of the best experiences I ever had in the programming world. I had the pleasure to meet some awesome people from different parts of the globe and we together delivered a web new app using Twitter's API in 3 days.",
+        "images": [
+          "images/portfolio/twittermarket/logo.jpg",
+          "images/portfolio/twittermarket/whatsabout.png"
+        ],
+        "url": "https://devpost.com/software/tweetmarket-uzqfpj",
+        "code": "https://github.com/luisgcenci/twittermarket",
+        "technologies": [
+          {
+            "class": "devicon-python-plain colored",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-flask-original",
+            "name": "Flask"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySQL"
+          },
+          {
+            "class": "devicon-react-original colored",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          }
+
+        ]
+      },
+      {
+        "title": "Flask Blog",
+        "startDate": "2020",
+        "description": "This was a coding along project given by Corey Schafer where we built a Web App using Python and Flask where users can add, updated and delete posts. It was very useful for me later on when I was assigned to make a Quick Map Web App for Twitter's Data Center using HTML5, Canvas, Python and Flask.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
         ],
         "url": "https://github.com",
+        "code": "https://github.com/luisgcenci/flaskblog-deployed",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-python-plain colored",
+            "name": "Python"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-flask-original",
+            "name": "Flask"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-sqlalchemy-plain",
+            "name": "SQLAlchemy"
+          },
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          }
+        ]
+      },
+      {
+        "title": "Shopping Cart",
+        "startDate": "2020",
+        "description": "A front-end shopping cart page where users can add products to a cart and fill it a form with their information. Try adding some of the items to checkout and updating them in the checkout section there, it works :). Just make sure you pick a size and a color for your product. Note: If you try to add the same item with the same color and size, a message will display.",
+        "images": [
+          "images/portfolio/shoppingcart/1.png",
+          "images/portfolio/shoppingcart/2.png"
+        ],
+        "url": "https://xzero-launchingpage.000webhostapp.com/",
+        "code": "https://github.com/luisgcenci/launching-page-front-end-only",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-jquery-plain colored",
+            "name": "jQuery"
+          },
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "JRAC",
+        "startDate": "2020",
+        "description": "JRAC is a game that I started developing with Java. It was inspired by Minecraft, and it's all about exploring nature resources and building things. The more 'complex' idea behind, that I haven't got the time to implement yet, is to make the hero responsible for taking care of his world while exploring it (e,g. replanting trees, eating plant-based food).",
+        "images": [
+          "images/portfolio/jrac/1.png",
+          "images/portfolio/jrac/2.png"
+        ],
+        "url": "https://github.com/luisgcenci",
+        "code": "https://github.com/luisgcenci/JRAC",
+        "technologies": [
+          {
+            "class": "devicon-java-plain colored",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-inkscape-plain colored",
+            "name": "Inkscape"
+          },
+          {
+            "class": "devicon-intellij-plain colored",
+            "name": "IntelliJ"
+          }
+        ]
+      },
+      {
+        "title": "Global Warming is Real",
+        "startDate": "2019",
+        "description": "Global warming is real and we are responsible for that. My very first website project built from stracth where I talk about the causes of global warming and we can do it about it.",
+        "images": [
+          "images/portfolio/globalwarming/1.png",
+          "images/portfolio/globalwarming/2.png"
+        ],
+        "url": "https://global-warming-front-end.000webhostapp.com/",
+        "code": "https://github.com/luisgcenci/global-warming-front-end",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Twitter, Atlanta",
+        "title": "Site Ops Technician",
+        "years": "05.2020 - 12.2020",
         "mainTech": [
-          "Angular 8/9/10"
+          "Python 3.7"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Python",
+          "Flask",
+          "Jira",
+          "HTML5",
+          "CSS",
+          "Pycodestyle",
+          "Pylint",
+          "Tech Refresh",
+          "Repairs"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Strong Shield Siding, New Orleans",
+        "title": "Project Manager",
+        "years": "01.2016 - 01.2020",
         "mainTech": [
-          "Angular 7/8"
+          "Leadership"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Spanish",
+          "Time Management",
+          "Work Ethic",
+          "Scheduling",
+          "Communication",
+          "Critical Thinking",
+          "Planning",
+          "Costumer Service"
+        ]
+      },
+      {
+        "company": "AIESEC, Brazil",
+        "title": "Exchange Liaison",
+        "years": "01.2015 - 07.2015",
+        "mainTech": [
+          "Volunteer"
+        ],
+        "technologies": [
+          "Planning",
+          "Coordinating",
+          "Positivity",
+          "Diversity",
+          "Community"
+        ]
+      },
+      {
+        "company": "S.F Santana Lopes, Brazil",
+        "title": "Office Manager",
+        "years": "04.2014 - 10.2015",
+        "mainTech": [
+          "Management"
+        ],
+        "technologies": [
+          "Logistics",
+          "Communication",
+          "Customer Service",
+          "Sales Support",
+          "Purchasing",
+          "Negotiation",
+          "Staff Management",
+          "Inventory Control"
+
+        ]
+      }
+    ],
+    "education": [
+      {
+        "company": "University of New Orleans",
+        "title": "Computer Science B.S",
+        "years": "01.2019 - present",
+        "mainTech": [
+          "Senior"
+        ],
+        "technologies": [
+          "Data Structures",
+          "OOP",
+          "Assembly",
+          "Bootstrap",
+          "Cloud Computing",
+          "Algorithms",
+          "Operating Systems",
+          "Theory of Computation",
+          "Data Models and DBS Syst",
+          "Discrete Structures"
+        ]
+      },
+      {
+        "company": "Delgado Community College, New Orleans",
+        "title": "General Studies",
+        "years": "06.2016 - 01.2019",
+        "mainTech": [
+          "Getting Started"
+        ],
+        "technologies": [
+          "English",
+          "Calculus",
+          "Economics",
+          "Statistics"
+        ]
+      },
+      {
+        "company": "Colégio Evangélico de Maringá, Brazil",
+        "title": "High School",
+        "years": "01.2014 - 01.2017",
+        "mainTech": [
+          "Just a Kid"
+        ],
+        "technologies": [
+          "Fun"
         ]
       }
     ]
