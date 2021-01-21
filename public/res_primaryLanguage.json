@@ -83,8 +83,8 @@
         "startDate": "2020",
         "description": "This was a coding along project given by Corey Schafer where we built a Web App using Python and Flask where users can add, updated and delete posts. It was very useful for me later on when I was assigned to make a Quick Map Web App for Twitter's Data Center using HTML5, Canvas, Python and Flask.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/flask/1.png",
+          "images/portfolio/flask/2.png"
         ],
         "url": "https://github.com",
         "code": "https://github.com/luisgcenci/flaskblog-deployed",
