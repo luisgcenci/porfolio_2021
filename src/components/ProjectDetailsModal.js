@@ -108,6 +108,8 @@ class ProjectDetailsModal extends Component {
               ) :null}
             </h3>
             <p className="modal-description">{description}</p>
+            <h4><a href={url}>See Project</a></h4>
+            <h4><a href={code}>See Code Source</a></h4>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
