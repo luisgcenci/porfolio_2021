@@ -12,6 +12,39 @@
     },
     "projects": [
       {
+        "title": "Space Heroes",
+        "startDate": "2021",
+        "description": "Een enkele pagina op volledig scherm, met een oneindige achtergrond, een raket die blijft rondvliegen, 3 helden om uit te kiezen met een schakelfunctie die de afbeeldingen van de gekozen persoon verbetert en een hoofdpaneel met de naam, kenmerken en een miniatuurafbeelding en de vaardigheid van de gekozen held. Responsive, werkt ook voor mobiel.",
+        "images": [
+          "images/portfolio/spaceheroes/1.png",
+          "images/portfolio/spaceheroes/2.png"
+        ],
+        "url": "https://spaceheroesmtfbwy.netlify.app/",
+        "code": "https://github.com/luisgcenci/SpaceHeroes",
+        "technologies": [
+          {
+            "class": "devicon-react-original colored",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain colored",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
         "title": "Pokedex",
         "startDate": "2021",
         "description": "Dit is het begin van mijn reis met React. Een klein Poke Game-kaartspel genaamd Pokedex.",

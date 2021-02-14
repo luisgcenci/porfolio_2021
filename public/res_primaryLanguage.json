@@ -12,6 +12,39 @@
     },
     "projects": [
       {
+        "title": "Space Heroes",
+        "startDate": "2021",
+        "description": "A single full screen page, with an infinite background, a rocket ship that keeps flying around, 3 heroes to choose from with a toggling feature that enhance the images of the one chosen and a main panel that displays the name, characteristics, a thumbnail image and the skill of the hero chosen. Responsive, works for mobile too.",
+        "images": [
+          "images/portfolio/spaceheroes/1.png",
+          "images/portfolio/spaceheroes/2.png"
+        ],
+        "url": "https://spaceheroesmtfbwy.netlify.app/",
+        "code": "https://github.com/luisgcenci/SpaceHeroes",
+        "technologies": [
+          {
+            "class": "devicon-react-original colored",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain colored",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-html5-plain colored",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain colored",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-bootstrap-plain colored",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
         "title": "Pokedex",
         "startDate": "2021",
         "description": "This is the beggining of my journey with React. A little Pokegame card game called Pokedex.",
