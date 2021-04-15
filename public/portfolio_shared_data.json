@@ -24,6 +24,11 @@
           "level": "95"
         },
         {
+          "name": "Oracle",
+          "class": "devicon-oracle-original colored",
+          "level": "60"
+        },
+        {
           "name": "HTML 5",
           "class": "devicon-html5-plain colored",
           "level": "95"
@@ -113,8 +118,6 @@
           "class": "devicon-intellij-plain colored",
           "level": "60"
         }
-
-
       ]
     }
   }

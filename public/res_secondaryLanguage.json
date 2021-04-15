@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hoi :)",
-      "description": "👋Ik ben Luis Cenci Ribeiro, ik ben een senior student Computerwetenschappen aan de Universiteit van New Orleans. Ik ben gepassioneerd om uitgedaagd te worden en problemen op te lossen door middel van codering, en ik ben klaar om een goede impact te hebben in de wereld door mijn vaardigheden. Ik kan coderen in java, python en javascript. Ik heb ervaring met frameworks voor webontwikkeling, zoals React (States, Hooks, Router) en Flask. In de front-end kan ik ook helpen met mijn kennis van HTML5, CSS en jQuery. En aan de achterkant zou ik waarde kunnen toevoegen aan uw projecten met mijn vaardigheden in NodeJS, Express, Flask, MongoDB, MySQL, en SQLAlchemy. Ik heb ook ervaring met Cloud Computing met behulp van AWS-services, services zoals EC2, s3, Memcached, Lambda, SNS, SQS en API Gateway. Ik ben momenteel ook React Native aan het leren en ik streef ernaar om binnenkort deel uit te maken van de 'Mobile App Development World'. Ik spreek drie talen: portugees, spaans en engels en ik ben ZO klaar om wat ducth te leren. Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska. Oh, ik heb een paar apps / websites geïmplementeerd met Ngnix, Cerbot en Ubuntu met behulp van Linode / Digital Ocean-hostingservices. O ik heb ook ervaring met prototyping met Figma .. ik vind het echt heerlijk om overal te zijn. 💜",
+      "description": "👋Ik ben Luis Cenci Ribeiro, ik ben een senior student Computerwetenschappen aan de Universiteit van New Orleans. Ik ben gepassioneerd om uitgedaagd te worden en problemen op te lossen door middel van codering, en ik ben klaar om een ​​goede impact te hebben in de wereld door mijn vaardigheden. Ik kan coderen in Java, Python en Javascript. Ik heb ervaring met frameworks voor webontwikkeling zoals React (Functional Components, Class Componantes, States, Props, Hooks, Router) en Flask. Aan de voorkant kan ik ook helpen met mijn kennis in HTML5, CSS en jQuery. En aan de achterkant kon ik waarde toevoegen aan webprojecten met mijn vaardigheden in NodeJS, Express, Flask, MySQL, Oracle en SQLAlchemy. Ik heb ook ervaring met Cloud Computing met behulp van AWS-services, services zoals EC2, s3, Memcached, Lambda, SNS, SQS en API Gateway. Ik ben momenteel ook React Native aan het leren en ik streef ernaar om binnenkort deel uit te maken van de 'Mobile App Development World'. Ik spreek drie talen: Portugees, Spaans en Engels en ik ben ZO klaar om wat ducth te leren. Oh, ik heb ook een paar apps / websites geïmplementeerd met Ngnix, Certbot en Ubuntu met behulp van Linode / Digital Ocean-hostingservices. Oh, ik heb ook ervaring met prototyping met Figma .. Ik vind het echt heerlijk om overal te zijn 💜.",
       "section_name": {
         "about": "Over mij",
         "projects": "Projecten",
@@ -11,6 +11,59 @@
       }
     },
     "projects": [
+      {
+        "title": "2D Multiplayer Game met Java (Sockets, TCP, Multithreading en LibGDX)2D Multiplayer Game with Java (Sockets, TCP, Multithreading and LibGDX)",
+        "startDate": "2021",
+        "description": "2D Multiplayer Game genaamd de Battle, gebouwd met behulp van een Client-Server-architectuur. Alle invoer van de clients (beweging, aanval, verdediging) wordt naar de server gestuurd en de server zendt ze uit naar alle clients die verbinding maken met die server. De server bevat ook informatie over aangesloten clients, dus voor het geval een nieuwe client verbinding maakt met de server nadat sommige clients door het scherm zijn gegaan of hun leven% is veranderd; De server kan dan de juiste status van de wereld / andere clients weergeven voor de nieuwe client die zojuist verbinding heeft gemaakt.",
+        "images": [
+          "images/portfolio/2d-game/9.png",
+          "images/portfolio/2d-game/4.png",
+          "images/portfolio/2d-game/5.png",  
+          "images/portfolio/2d-game/6.png",
+          "images/portfolio/2d-game/7.png",
+          "images/portfolio/2d-game/8.png",
+          "images/portfolio/2d-game/9.png",
+          "images/portfolio/2d-game/10.png"
+        ],
+        "url": "https://github.com/luisgcenci/TheBattle",
+        "code": "https://github.com/luisgcenci/TheBattle",
+        "technologies": [
+          {
+            "class": "devicon-java-plain colored",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-intellij-plain colored",
+            "name": "IntelliJ"
+          }
+        ]
+      },
+      {
+        "title": "Multi-Threaded Chat Application: Java, Sockets, TCP and JavaFX",
+        "startDate": "2021",
+        "description": "2D Multiplayer Game genaamd de Battle, gebouwd met behulp van een Client-Server-architectuur. Alle invoer van de clients (beweging, aanval, verdediging) wordt naar de server gestuurd en de server zendt ze uit naar alle clients die verbinding maken met die server. De server bevat ook informatie over aangesloten clients, dus voor het geval een nieuwe client verbinding maakt met de server nadat sommige clients door het scherm zijn gegaan of hun leven% is veranderd; De server kan dan de juiste status van de wereld / andere clients weergeven voor de nieuwe client die zojuist verbinding heeft gemaakt.",
+        "images": [
+          "images/portfolio/group-chat/9.png",
+          "images/portfolio/group-chat/5.png",
+          "images/portfolio/group-chat/6.png",
+          "images/portfolio/group-chat/7.png",
+          "images/portfolio/group-chat/9.png",
+          "images/portfolio/group-chat/8.png"
+          
+        ],
+        "url": "https://luisgcenci.medium.com/building-a-group-chat-app-with-javafx-multithread-socket-programming-in-java-c8c11fd8c927",
+        "code": "https://github.com/luisgcenci/MultithreadingGroupChat",
+        "technologies": [
+          {
+            "class": "devicon-java-plain colored",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-intellij-plain colored",
+            "name": "IntelliJ"
+          }
+        ]
+      },
       {
         "title": "Space Heroes",
         "startDate": "2021",
